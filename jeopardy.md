@@ -1,0 +1,39 @@
+# To Do List
+
+- [x] Create Base HTML, CSS, and JS files
+- [x] Connect all three
+- [x] sign up for / look for API
+- [x] Local Json
+- [x]   - Link it
+- [x] data-id on html
+- [x] Style CSS 
+- [x]   - background blue
+- [x]   - wedge everything in jeopardy board
+- [x]   - scale correctly
+- [ ] Grey buttons for unavailable
+- [ ] card selection/link cards to questions
+- [ ] replace score card with question
+- [ ]   - Enable submit/pass
+- [ ] if p1 pass enable p2
+- [ ] if correct answer 
+- [ ]   - blank card
+- [ ]   - award points
+- [ ]   - keep current player
+- [ ] if incorrect answer
+- [ ]   - subtract points
+- [ ]   - other player activates
+- [ ]   - return to correct answer
+- [ ]   - if noone correct, give option to pick another
+- [ ] score totals
+- [ ] display score
+- [ ] if select card active and another is attempted 
+- [ ]   - alert player
+- [ ]   - question stays
+- [ ] once player reaches 15k pts OR clear board
+- [ ]  - enable r2 button
+- [ ] same logic as r1
+- [ ] once player reaches 30k pts OR clear board
+- [ ]   - enable final round button
+- [ ] final present category 
+- [ ] prompt to wager both players
+- [ ] question reveals
