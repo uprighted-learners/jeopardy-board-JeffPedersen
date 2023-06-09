@@ -63,30 +63,6 @@ async function fetchQuestion() {
   let final = [];
     final.push(questionCard[x].question + " " + questionCard[x].answer);
 
-
-//! I need a smarter way to do this
-// let General100 = document.getElementById("General100");
-// let General200 = document.getElementById("General200");
-// let General300 = document.getElementById("General300");
-// let General400 = document.getElementById("General400");
-// let General500 = document.getElementById("General500");
-// let General202 = document.getElementById("General202");
-// let General402 = document.getElementById("General402");
-// let General600 = document.getElementById("General600");
-// let General800 = document.getElementById("General800");
-// let General1000 = document.getElementById("General1000");
-// let General100 = document.getElementById("General100");
-// let General200 = document.getElementById("General200");
-// let General300 = document.getElementById("General300");
-// let General400 = document.getElementById("General400");
-// let General500 = document.getElementById("General500");
-// let General202 = document.getElementById("General202");
-// let General402 = document.getElementById("General402");
-// let General600 = document.getElementById("General600");
-// let General800 = document.getElementById("General800");
-// let General1000 = document.getElementById("General1000");
-//! I need a smarter way to do this
-
 // First attempt to addEventListener and pull from JSON
   if (questionCard1) {
     questionCard1.addEventListener("click", (x) => {
@@ -114,21 +90,12 @@ function close() {
 fetchQuestion();
 // Event listener
 
-// Fetch ()
-// function fetchQuestion() { // function fetches data and no more
-// return fetch("./questions.json")
-//     .then(res => res.json())
 
-// }
-
-// fetchQuestion().then(data => { // data processing below
-//     let question = data.placeholderQuestions;
-//     console.log(question)
-// })
-// .catch(res => console.error(err));
-
-
-
+fetchQuestion().then(data => { // data processing below
+    let question = data.placeholderQuestions;
+    console.log(question)
+})
+.catch(res => console.error(err));
 
 //! really happy with this one, unfortunately plugging in the data got me good
 async function fetchQuestion() {
